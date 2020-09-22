@@ -14,7 +14,7 @@ else
 fi
 
 if [[ -n "${DOCKER_USERNAME}" ]]; then
-	echo '${DOCKER_PASSWORD}' | docker login --username ${DOCKER_USERNAME} --password-stdin
+	echo ${DOCKER_PASSWORD} | docker login --username ${DOCKER_USERNAME} --password-stdin
 fi
 
 goreleaser "$@"

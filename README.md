@@ -1,5 +1,9 @@
 # goreleaser-cross
 
+# ARCHIVE NOTICE
+The golang-cross is now part of the [goreleaser team](https://github.com/goreleaser/goreleaser-cross)
+
+# Brief
 Docker container to turn CGO cross-compilation pain into a pleasure. It tested on [variety of platforms](#supported-toolchains/platforms).
 [Custom sysroots](#Sysroot) also can be used.
 
